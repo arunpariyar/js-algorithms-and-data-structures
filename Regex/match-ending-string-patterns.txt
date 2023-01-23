@@ -1,0 +1,4 @@
+//Use the caret character in a regex to find Cal only in the beginning of the string rickyAndCal
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/; // Change this line
+let result = lastRegex.test(caboose);
