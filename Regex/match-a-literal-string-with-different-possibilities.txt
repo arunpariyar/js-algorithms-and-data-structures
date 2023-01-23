@@ -1,0 +1,6 @@
+
+//Complete the regex petRegex to match the pets dog, cat, bird, or fish.
+
+let petString = "James has a pet cat.";
+let petRegex = /dog|cat|bird|fish/; // we are searching for any of the given terms instead of just one
+let result = petRegex.test(petString);
